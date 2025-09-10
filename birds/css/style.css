@@ -1,0 +1,75 @@
+p {
+    padding-top: 15px;
+}
+
+a {
+    font-size: 16px;
+    color: #7e0820;
+    text-decoration-style: wavy;
+}
+
+:focus {
+    outline: none;
+    border: 6px dashed #417243;
+}
+
+h1 {
+    text-align: center;
+    line-height: 2;
+    font-family: 'Syncopate', sans-serif;
+}
+
+body {
+    background-image: url("../images/pigeon-background.jpg");
+    background-color: #ddd;
+}
+
+td {
+    text-align: center;
+    border-bottom: 2px solid #000;
+    padding: 10px;
+}
+
+thead th {
+    min-width: 125px;
+    padding: 10px;
+    background-color: #7e0820;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+tbody th{
+    border: 2px #000 solid;
+    border-top: 0px;
+}
+
+tbody tr:nth-child(even){
+    background-color: #D1D1D1;
+}
+
+tbody tr:hover{
+    background-color: #7e08202d;
+}
+
+table{
+    border-radius: 20px;
+    border-spacing: 0px;
+    border-right: 2px solid #000;
+    margin: auto;
+}
+
+thead th:first-child{
+    border-top-left-radius: 20px;
+}
+
+thead th:last-child{
+    border-top-right-radius: 20px;
+}
+
+tbody tr:last-child th:first-child {
+    border-bottom-left-radius: 20px;
+  }
+  
+  tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 20px;
+  }
